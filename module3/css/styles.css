@@ -1,0 +1,67 @@
+/** HEADER **/
+#header-nav {
+  background-color: #fa8a01;
+  padding-bottom: 15px;
+  border-radius: 0;
+  border: 0; /** главная панель (поле )**/
+}
+
+.navbar-brand {
+  padding-top: 25px; /** отступ внутри главной панели **/
+  padding-bottom: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #23211d;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px gray;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /*ССылка в заголовке */
+  text-decoration: none;
+}
+
+#nav-list { /* выпадающий список */
+  margin-top: 10px;
+
+}
+#nav-list a { /* выпадающий список */
+  color: #23211d; /* Цвет текста пунктов выпадающего меню */ 
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+}
+#nav-list a:hover {
+  background: #e5dac3;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* кнопка */
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle { /* кнопка */
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+div#main-content {
+	background-color: #f5c576;
+	height: 1000px;
+}
+
+#chicken-about p {
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+#chicken-about h3 {
+	text-transform: uppercase;
+}
+#main-content h2 {
+	text-transform: uppercase;
+}
